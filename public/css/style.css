@@ -51,7 +51,7 @@ nav ul li a {
     display: flex;
     align-items: center; /* Align items vertically in the middle */
     justify-content: space-between; /* Push text left, image right */
-    height: 100vh; /* Full height of the screen */
+    max-height: 75vh;
     padding: 50px;
     padding-top: 0px;
     position: relative;
@@ -151,6 +151,7 @@ nav ul li a {
 }
 
 .projects-container {
+  min-height: 60vh;
   max-width: 1200px;
   margin: 50px auto;
   padding: 20px;
@@ -163,7 +164,7 @@ h1 {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: 20px;
   justify-content: center;
 }
