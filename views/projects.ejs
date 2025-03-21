@@ -24,16 +24,19 @@
         </ul>
     </nav>
 
-    <div class="home-container">
-        <div class="info">
-            <h1>Rojhon L. Abalos</h1>
-            <h3>"Turning ideas into powerful digital experiences."</h3>
-            <h2>Software Developer</h2>
-            <p>"I am passionate about designing and developing innovative applications that deliver seamless user experiences. With a strong foundation in mobile and web development, data visualization, and system management, I focus on building efficient, user-friendly, and scalable solutions. My expertise lies in bridging technology with intuitive design, ensuring that every application I create is not just functional but also engaging and accessible. Whether it’s crafting interactive dashboards, optimizing system performance, or building next-gen web and mobile apps, I thrive on turning complex challenges into simple, effective solutions that enhance productivity and user satisfaction."</p>
-            <a href="/resume/rojhon_abalos_resume.pdf" class="btn" download>Download My Resume</a>
-        </div>
-        <div class="image-container">
-            <img src="/images/abalos-profile.png" alt="Rojhon L. Abalos">
+    <div class="projects-container">
+        <h1 class="center">My Projects</h1>
+        
+        <div class="projects-grid">
+            <% projects.forEach(project => { %>
+                <div class="project-card">
+                    <a href="<%= project.link %>" target="_blank">
+                        <img src="<%= project.image %>" alt="<%= project.name %>">
+                    </a>
+                    <h2><%= project.name %></h2>
+                    <p><%= project.details %></p>
+                </div>
+            <% }) %>
         </div>
     </div>
 
