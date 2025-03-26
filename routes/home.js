@@ -4,22 +4,40 @@ const router = express.Router();
 // 🔥 Define projects array first
 const projects = [
     {
-        name: "ShopRJ",
-        image: "/images/shoprj.png",
-        link: "https://shoprj.com",
-        details: "A unique e-commerce platform integrating gamified rewards with affiliate marketing."
+        name: "TWC Online Store",
+        image: "/images/twc_online_store.png",
+        link: "https://rabalosh8f4.twconline.store/",
+        details: "This is my e-commerce platform where you can order products in these categories: Health & Wellness, Healthy Beverages, Intimate Care, Bath & Body, Bags, Watches, Electronics, and Perfumes."
     },
     {
-        name: "ROJ IQ Test",
-        image: "/images/roj-iq-test.png",
-        link: "https://roj-iq-test.com",
+        name: "Tridaz Logistics Services Webpage",
+        image: "/images/tls.png",
+        link: "https://tridazlogistics.com/",
         details: "An AI-powered IQ testing platform with personalized intelligence profiling."
     },
     {
-        name: "GreenGoals",
-        image: "/images/greengoals.png",
-        link: "https://greengoals.com",
-        details: "A sustainability tracking web app for eco-conscious individuals."
+        name: "Corn Disease-Detection using Convolutional Neural Network (VGG16 and ResNet50)",
+        image: "/images/cdd.png",
+        link: "https://www.mediafire.com/folder/uvpe2vbawd267/APK?fbclid=IwY2xjawJPu5hleHRuA2FlbQIxMAABHYXQjoH-27Q5NGXzgeNAXI1sr9OUsiin_tC-w6QAEuOq1Ut_cA5WaZ13JQ_aem_kVxHmZg7um49gcC11b7hmw",
+        details: "As part of our thesis, our team (Kay) develop this application using Flutter and GCP."
+    },
+    {
+        name: "Festivals of Camarines Sur - Abalos Fest",
+        image: "/images/abalos-fest.png",
+        link: "https://zaphro5.github.io/Abalos-Fest/index.html",
+        details: "This is a webpage featuring the various festivals within the province of Cmarines Sur."
+    },
+    {
+        name: "Datesfruit Ph",
+        image: "/images/datesfruitph.png",
+        link: "https://www.datesfruitph.com/",
+        details: "This is one of the websites we build for a client during my internship period at Intelliseven Solutions Inc. using Nuxt3, Express, and MongoDB."
+    },
+    {
+        name: "Cryptograhic Streamlit App for Advanced Encryption Standard (AES), Rivest-Shamir-Adleman (RSA), and Secure Hash Algorithm 256 (SHA-256)",
+        image: "/images/crypto.png",
+        link: "https://zaphro5-crytographic-app-app-z7ntct.streamlit.app/",
+        details: "This is a webpage featuring the various festivals within the province of Cmarines Sur."
     }
 ];
 

@@ -5,7 +5,7 @@ body {
   background: url('/images/background.webp') center/cover no-repeat;
   background-attachment: fixed; /* Keeps the background steady while scrolling */
   background-blend-mode: multiply; /* Softens the background */
-  background-color: rgba(10, 10, 25, 0.85); /* Dark overlay for better readability */
+  background-color: rgba(210, 210, 240, 0.85); /* Dark overlay for better readability */
   color: #ffffff;
   overflow-x: hidden; /* Prevents horizontal scrolling */
   height: 100%;
@@ -170,7 +170,8 @@ h1 {
 }
 
 .project-card {
-  background: #1e1e1e;
+  background: url('/images/bg-card.webp') center/cover no-repeat;
+  background-color: rgba(10, 10, 25, 0.85); /* Dark overlay for better readability */
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
