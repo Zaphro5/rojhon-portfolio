@@ -25,7 +25,7 @@ const projects = [
         name: "Festivals of Camarines Sur - Abalos Fest",
         image: "/images/abalos-fest.png",
         link: "https://zaphro5.github.io/Abalos-Fest/index.html",
-        details: "This is a webpage featuring the various festivals within the province of Cmarines Sur."
+        details: "This is a webpage featuring the various festivals within the province of Camarines Sur."
     },
     {
         name: "Datesfruit Ph",
@@ -34,10 +34,22 @@ const projects = [
         details: "This is one of the websites we build for a client during my internship period at Intelliseven Solutions Inc. using Nuxt3, Express, and MongoDB."
     },
     {
-        name: "Cryptograhic Streamlit App for Advanced Encryption Standard (AES), Rivest-Shamir-Adleman (RSA), and Secure Hash Algorithm 256 (SHA-256)",
+        name: "Cryptograhic Streamlit App",
         image: "/images/crypto.png",
         link: "https://zaphro5-crytographic-app-app-z7ntct.streamlit.app/",
-        details: "This is a webpage featuring the various festivals within the province of Cmarines Sur."
+        details: "A streamlit-based user interface for encrypting and decrypting messages using the implemented Advanced Encryption Standard (AES) and Rivest-Shamir-Adleman (RSA) algorithms with a separate tab in the UI for generating and verifying Secure Hash Algorithm 256 (SHA-256) hash values of messages or files."
+    },
+    {
+        name: "Line-Follower Robot",
+        image: "/images/line-follower.png",
+        link: "https://drive.google.com/file/d/1zSryPe_BseMcxqA5--r1hNWG12l8IzyT/view?usp=drive_link",
+        details: "We build a line-follower robot usng Arduino Uno and Infrared Sensor"
+    },
+    {
+        name: "Obstacle-Avoiding Prototype",
+        image: "/images/obstacle-avoiding.png",
+        link: "https://drive.google.com/file/d/1CDs_AjN9eRkojCTazHvxwUpe_MM3E5S5/view?usp=sharing",
+        details: "We build an obstacle-avoiding robot prototype using Arduino Uno and Ultrasonic Sensor"
     }
 ];
 
