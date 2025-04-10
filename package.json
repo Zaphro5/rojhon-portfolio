@@ -2,7 +2,7 @@
   "name": "rojhon-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ejs",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
