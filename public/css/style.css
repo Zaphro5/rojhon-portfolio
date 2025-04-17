@@ -199,6 +199,51 @@ h1 {
   font-size: 16px;
   line-height: 1.4;
 }
+
+/* Add styles for the credentials section */
+.credentials-container {
+  min-height: 60vh;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.credentials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.credential-item {
+  background: url('/images/bg-card.webp') center/cover no-repeat;
+  background-color: rgba(10, 10, 25, 0.85); /* Dark overlay for better readability */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.credential-item:hover {
+  transform: scale(1.05);
+}
+
+.credential-item img {
+  width: 100%; /* Ensures the image takes the full width of its container */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: contain; /* Ensures the entire image is visible */
+  border-radius: 10px;
+}
+
+.credential-item h2 {
+  color: #ff9800;
+  margin: 10px 0;
+}
+
+.credential-item p {
+  font-size: 16px;
+  line-height: 1.4;
+}
   
   /* Mobile responsiveness */
   @media (max-width: 768px) {

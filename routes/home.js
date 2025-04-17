@@ -61,6 +61,45 @@ router.get("/", (req, res) => {
     });
 });
 
+// Define credentials array
+const credentials = [
+    {
+        name: "Official Transcript of Record (1 of 2)",
+        image: "/images/tor1.jpeg",
+        details: "Completed Bachelor of Science in Computer Science degree as Magna Cum Laude (1.27) at Camarines Sur Polytechnic Colleges"
+    },
+    {
+        name: "Official Transcript of Record (2 of 2)",
+        image: "/images/tor2.jpeg",
+        details: "..."
+    },
+    {
+        name: "Certificate of Recognition (Magna Cum Laude)",
+        image: "/images/cormcl.jpeg",
+        details: "Presented for earning a GWA of 1.27"
+    },
+    {
+        name: "Certificate of Completion (Intelliseven Technology Solutions Inc.)",
+        image: "/images/cocintelliseven.jpeg",
+        details: "Completed OJT internship in the field of web development at Intelliseven Technology Solutions Inc."
+    },
+    {
+        name: "Certificate of Completion (Tridaz Logistics Services)",
+        image: "/images/coctridaz.jpg",
+        details: "Completed DOST's Practical Training Program in the fields of web development and system management at Tridaz Logistics Services"
+    },
+    {
+        name: "President's List Award",
+        image: "/images/pla.jpeg",
+        details: "Received President's List Award at Camarines Sur Polytechnic Colleges for exemplary academic performance."
+    }
+];
+
+// Pass 'credentials' to the credentials.ejs template
+router.get("/credentials", (req, res) => {
+    res.render("credentials", { title: "My Credentials", credentials });
+});
+
 router.get("/about", (req, res) => {
     res.render("about", { title: "About Me - Rojhon L. Abalos" });
 });
