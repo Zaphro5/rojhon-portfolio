@@ -244,6 +244,24 @@ h1 {
   font-size: 16px;
   line-height: 1.4;
 }
+
+.ojt-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.video-container {
+  margin-bottom: 20px;
+}
+
+.ojt-content {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+}
   
   /* Mobile responsiveness */
   @media (max-width: 768px) {

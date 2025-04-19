@@ -109,4 +109,9 @@ router.get("/projects", (req, res) => {
     res.render("projects", { title: "My Projects", projects });
 });
 
+// New route for My OJT Journey
+router.get("/ojt", (req, res) => {
+    res.render("ojt", { title: "My OJT Journey" });
+});
+
 module.exports = router;
