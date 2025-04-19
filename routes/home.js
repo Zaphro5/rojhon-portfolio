@@ -13,7 +13,7 @@ const projects = [
         name: "Tridaz Logistics Services Webpage",
         image: "/images/tls.png",
         link: "https://tridazlogistics.com/",
-        details: "An AI-powered IQ testing platform with personalized intelligence profiling."
+        details: "This is the company website (CWS) commissioned to me during my DOST's Practical Training Program by Mr. Abadilla so his company increase its online presence."
     },
     {
         name: "Corn Disease-Detection using Convolutional Neural Network (VGG16 and ResNet50)",
